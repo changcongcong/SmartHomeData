@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  SmartHome
+//
+//  Created by 常丛丛 on 2017/11/7.
+//  Copyright © 2017年 SmartHome. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIColor+Extension.h"
+#import "Masonry.h"
+#import "CLabel.h"
+#import "UIFont+CFont.h"
+#import "HHttpRequest.h"
+#import "MJExtension.h"
+#import "SMTool.h"
+#import "Global.h"
+#import "UIImage+Extension.h"
+#import "YYModel.h"
+
+#define kScreenScale [UIScreen mainScreen].scale
+#define kScreenW [UIScreen mainScreen].bounds.size.width
+#define kScreenH [UIScreen mainScreen].bounds.size.height
+#define kScreenWScale(a) [UIScreen mainScreen].bounds.size.width*a/750
+#define kScreenHScale(a) [UIScreen mainScreen].bounds.size.height*a/1334
+#define kPageSize @"10"
+#define kTitleColor [UIColor colorWithHexString:@"#333333"]
+#define WHITE_COLOR [UIColor whiteColor]
+#define Window_Delay 1
+#endif /* PrefixHeader_pch */
